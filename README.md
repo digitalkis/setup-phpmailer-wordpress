@@ -1,4 +1,4 @@
-# This is an example of establishing an SMTP connection using the `phpmailer_init` action without plugins.
+# This is an example of establishing a SMTP connection using the `phpmailer_init` action without plugins.
 
 ## Use your wp-config.php to set the values for host, username, password...
 
