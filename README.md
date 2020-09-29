@@ -13,7 +13,7 @@ define( 'SMTP_FROM_NAME', 'My WordPress Site' );    // SMTP From name
 define( 'SMTP_PORT', '465' ); // SMTP port number - likely to be 25, 465 or 587
 define( 'SMTP_SECURE', 'ssl' ); // Encryption system to use - ssl or tls
 define( 'SMTP_AUTH', true); // Use SMTP authentication (true|false)
-define( 'SMTP_DEBUG', 0 ); 0,1,2,3,4; //More details here: https://github.com/PHPMailer/PHPMailer/wiki/SMTP-Debugging
+define( 'SMTP_DEBUG', 0 ); //Options are 0,1,2,3,4 - More details here: https://github.com/PHPMailer/PHPMailer/wiki/SMTP-Debugging
 
 ```
 ## Edit your functions.php and add the following code:
